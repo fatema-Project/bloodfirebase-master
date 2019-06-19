@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pro1"
+    tools:context=".profileact2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate your blood for a reason, let the reason to be life"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:background="#E60808"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewToken"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:id="@+id/respond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:background="#fff"
+        android:text="respond"
+        />
+    <Button
+        android:id="@+id/need"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+        android:textSize="30dp"
+        android:text="need"
+        />
+
+
+    <Button
+        android:id="@+id/logoutsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+        android:background="#fff"
+        android:text="logout"
+        android:textSize="30dp"
+        android:textColor="#000"
+        />
+
+
+
+</LinearLayout>
